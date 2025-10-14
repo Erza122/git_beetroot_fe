@@ -1,0 +1,85 @@
+body {
+    background-color: beige;
+    font-family: sans-serif;
+    display: block;
+    width:900px;
+    margin: 0 auto;
+}
+header,main{
+    float:left;
+}
+footer{
+    float:right;
+
+}
+article{
+    background-color: white;
+    border-radius:10px;
+}
+.featured-article{
+    padding:20px;
+
+}
+
+.featured-article>h2,.featured-article>p>a{
+    color: red;
+}
+
+
+.this-title-article{
+    margin-top:30px;
+    padding:20px;
+}
+.this-title-article>section>h3,.this-title-article>section>p>a{
+    color:red;
+}
+.this-title-article>section:first-child{
+    border-bottom:2px solid lightgray;
+}
+
+.blog-roll-section>h3{
+    color:red;
+}
+.blog-roll-section>ul{
+    padding:0px;
+    list-style:none;
+
+}
+.blog-roll-section>ul>li{
+    margin-bottom:10px;
+}
+.blog-roll-section>ul>li>a{
+    text-decoration: none;
+    color:black;
+    
+}
+
+.amazing-article{
+    display: flex;
+    padding:20px;
+    border-radius:10px;
+    
+}
+.amazing-article>section:first-child{
+    width:30%;
+}
+.amazing-article>section>h3{
+    color:red;
+    margin:0;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.amazing-article>section:first-child>p{
+    font-weight: bold;
+    margin:0;
+}
+.amazing-article>section:last-child{
+    width:70%;
+}
+footer>p{
+    font-weight: bold;
+}
+footer>p>a{
+    font-weight: lighter;
+    color:red;
+}
